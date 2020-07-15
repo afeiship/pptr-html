@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/pptr-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get html by puppeteer.",
   "homepage": "https://github.com/afeiship/pptr-html",
   "author": {
@@ -31,6 +31,9 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
+  },
+  "peerDependencies": {
+    "puppeteer": "^5.1.0"
   },
   "dependencies": {
     "@feizheng/next-js-core2": "^2.6.0",

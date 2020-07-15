@@ -2,8 +2,8 @@
  * name: @feizheng/pptr-html
  * description: Get html by puppeteer.
  * homepage: https://github.com/afeiship/pptr-html
- * version: 1.0.0
- * date: 2020-07-15T09:10:46.382Z
+ * version: 1.0.1
+ * date: 2020-07-15T10:03:51.542Z
  * license: MIT
  */
 
