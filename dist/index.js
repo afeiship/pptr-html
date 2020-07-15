@@ -3,7 +3,7 @@
  * description: Get html by puppeteer.
  * homepage: https://github.com/afeiship/pptr-html
  * version: 1.0.0
- * date: 2020-07-15T09:08:00.929Z
+ * date: 2020-07-15T09:10:46.382Z
  * license: MIT
  */
 

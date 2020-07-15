@@ -15,7 +15,9 @@ npm install -S @feizheng/pptr-html
 ```js
 import pptrHtml from '@feizheng/pptr-html';
 
-// code goes here
+pptrHtml('https://github.com/afeiship').then(res => {
+  console.log(res);
+});
 ```
 
 
