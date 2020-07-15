@@ -20,6 +20,9 @@ pptrHtml('https://github.com/afeiship').then(res => {
 });
 ```
 
+## options
+> { headless: true, closeable: true, userAgent: nx.randomUa(), selector: null };
+
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/pptr-html/blob/master/LICENSE.txt).
