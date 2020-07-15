@@ -15,8 +15,8 @@ export default async (inUrl, inOptions) => {
   const browser = await puppeteer.launch(options);
   const page = await browser.newPage();
   userAgent && await page.setUserAgent(userAgent);
-  selector && await page.waitForSelector(selector);
   await page.goto(inUrl);
+  selector && await page.waitForSelector(selector);
   const html = await page.content();
   closeable && await browser.close();
   return html;
