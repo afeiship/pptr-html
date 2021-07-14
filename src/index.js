@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import '@jswork/next';
 import '@jswork/next-random-ua';
 
-const DEFAULT_OPTIONS = {
+const defaults = {
   headless: true,
   closeable: true,
   userAgent: nx.randomUa(),
@@ -10,7 +10,7 @@ const DEFAULT_OPTIONS = {
 };
 
 export default async (inUrl, inOptions) => {
-  const options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
+  const options = nx.mix(null, defaults, inOptions);
   const { userAgent, selector, closeable } = options;
   const browser = await puppeteer.launch(options);
   const page = await browser.newPage();

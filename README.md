@@ -23,6 +23,10 @@ pptrHtml('https://github.com/afeiship').then(res => {
 ## options
 > { headless: true, closeable: true, userAgent: nx.randomUa(), selector: null };
 
+## install puppeteer
+```shell
+PUPPETEER_DOWNLOAD_HOST=https://npm.taobao.org/mirrors npm i -D puppeteer
+```
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/pptr-html/blob/master/LICENSE.txt).
