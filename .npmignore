@@ -10,4 +10,5 @@ gulpfile.js
 
 .editorconfig
 .npmrc
-.prettoerrc
+.babelrc
+.prettierrc
