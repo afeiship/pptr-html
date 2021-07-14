@@ -3,7 +3,7 @@
 
   const gulp = require('gulp');
   const $ = require('gulp-load-plugins')({
-    pattern: ['gulp-*', 'gulp.*', 'del', '@feizheng/gulp-*']
+    pattern: ['gulp-*', 'gulp.*', 'del', '@jswork/gulp-*']
   });
 
   gulp.task('scripts', function() {
@@ -11,7 +11,7 @@
       .src('src/*.js')
       .pipe($.babel())
       .pipe($.uglify())
-      .pipe($.feizheng.pkgHeader())
+      .pipe($.jswork.pkgHeader())
       .pipe(gulp.dest('dist'))
       .pipe($.size({ title: '[ size ]:' }));
   });
