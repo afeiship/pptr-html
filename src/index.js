@@ -1,6 +1,6 @@
 import puppeteer from 'puppeteer';
-import '@feizheng/next-js-core2';
-import '@feizheng/next-random-ua';
+import '@jswork/next';
+import '@jswork/next-random-ua';
 
 const DEFAULT_OPTIONS = {
   headless: true,
