@@ -24,6 +24,7 @@ pptrHtml('https://github.com/afeiship').then(res => {
 > { headless: true, closeable: true, userAgent: nx.randomUa(), selector: null };
 
 ## install puppeteer
+- https://gera2ld.space/posts/how-to-install-puppeteer/
 ```shell
 PUPPETEER_DOWNLOAD_HOST=https://npm.taobao.org/mirrors npm i -D puppeteer
 ```
