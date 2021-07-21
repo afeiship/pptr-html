@@ -25,8 +25,13 @@ pptrHtml('https://github.com/afeiship').then(res => {
 
 ## install puppeteer
 - https://gera2ld.space/posts/how-to-install-puppeteer/
+
 ```shell
+# use taobao source
 PUPPETEER_DOWNLOAD_HOST=https://npm.taobao.org/mirrors npm i -D puppeteer
+
+# or skip download
+PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm i puppeteer
 ```
 
 ## license
