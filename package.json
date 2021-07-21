@@ -1,6 +1,6 @@
 {
   "name": "@jswork/pptr-html",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get html by puppeteer.",
   "homepage": "https://github.com/afeiship/pptr-html",
   "author": {
@@ -28,7 +28,8 @@
     "gulp-load-plugins": "^2.0.2",
     "gulp-size": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "release-it": "^14.10.0"
   },
   "publishConfig": {
     "access": "public",
