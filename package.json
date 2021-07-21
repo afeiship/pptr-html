@@ -10,7 +10,8 @@
   "scripts": {
     "build": "gulp",
     "kill": "pkill -f pptr-html",
-    "test": "jest"
+    "test": "jest",
+    "release": "release-it"
   },
   "main": "dist/index.js",
   "license": "MIT",
