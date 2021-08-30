@@ -9,6 +9,10 @@ build
 gulpfile.js
 
 .editorconfig
-.npmrc
-.babelrc
 .prettierrc
+.release-it.json
+tsconfig.json
+jest.config.js
+babel.config.js
+yarn-error.log
+yarn.lock
